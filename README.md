@@ -1,6 +1,6 @@
 # Remittance Contract
 
-Enables release of funds to a third party when provided correct passwords. 
+Enables release of funds to a third party correct passwords are provided. 
 
 Two contract versions included:
 * SplitterAlice where Alice is the owner of the contract and takes a fixed percentage as a fee.
