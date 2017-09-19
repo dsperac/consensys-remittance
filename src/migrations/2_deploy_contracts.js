@@ -1,7 +1,5 @@
-var RemittanceAlice = artifacts.require("./RemittanceAlice.sol");
-var RemittanceMyself = artifacts.require("./RemittanceMyself.sol");
+var Remittance = artifacts.require("./Remittance.sol");
 
 module.exports = function(deployer) {
-  //deployer.deploy(SplitterAlice);
-  //deployer.deploy(SplitterMyself);
+  deployer.deploy(Remittance);
 };
